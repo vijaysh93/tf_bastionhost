@@ -1,12 +1,12 @@
-#variable "access_key" {
-# description = "AWS Access Key"
-#  default     = "AK73V6"
-#}
+variable "access_key" {
+ description = "AWS Access Key"
+  default     = ""
+}
 
-#variable "secret_key" {
-#  description = "AWS Secret Key"
-#  default     = "TGTA1"
-#}
+variable "secret_key" {
+  description = "AWS Secret Key"
+  default     = ""
+}
 
 variable "region" {
   description = "AWS Region "
