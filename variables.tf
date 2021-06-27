@@ -45,7 +45,7 @@ variable "HostIp" {
 
 variable "PvtIp" {
   description = " Host IP to be allowed SSH for"
-  default     = "172.31.58.76/20"
+  default     = "172.31.48.0/20"
 }
 
 variable "PvtIP" {
