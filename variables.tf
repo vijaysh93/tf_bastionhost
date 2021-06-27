@@ -40,15 +40,15 @@ variable "Env" {
 
 variable "HostIp" {
   description = " Host Public IP to be allowed SSH for"
-  default     = "18.118.102.95/32"
+  default     = "35.175.102.94/32"
 }
 
 variable "PvtIp" {
   description = " Host IP to be allowed SSH for"
-  default     = "172.31.16.0/20"
+  default     = "172.31.58.76/20"
 }
 
 variable "PvtIP" {
   description = " Host IP to be allowed SSH for"
-  default     = "172.31.0.0/16"
+  default     = "172.31.58.76/16"
 }
